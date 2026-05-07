@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   const planes = {
     "inicio":   { name: "Plan Inicio",         price: 245.00, cancel: "plan-inicio" },
     "avanzado": { name: "Plan Avanzado",        price: 300.00, cancel: "plan-avanzado" },
